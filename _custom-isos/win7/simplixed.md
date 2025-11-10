@@ -1,8 +1,9 @@
 ---
 title: SiMPLiXED 2025-08 Windows 7 Updated ISO
-layout: customisos
+layout: custom-iso
+verdict: recommended
 ---
-**Verdict:** <i class="fa-solid fa-check"></i> Recommended
+**Verdict:**&nbsp; <i class="fa fa-check"></i> Recommended
 
 One of the best Windows 7 updated ISOs out there.
 

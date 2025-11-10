@@ -1,11 +1,12 @@
 ---
-title: Adguard's Windows Vista Updated ISOs
-layout: customisos
+title: Adguard's Windows Vista Updated ISOs (2025-01 and 2025-04)
+layout: custom-iso
+verdict: good
 ---
 
 ### Adguard's Windows Vista Updated ISO 2025-04
 
-**Verdict:** <i class="fa-solid fa-info"></i> Good to use
+**Verdict:**&nbsp; <i class="fa fa-info"></i> Good to use
 
 A simple updated ISO with no extras.
 
@@ -29,11 +30,11 @@ A simple updated ISO with no extras.
 
 ### Adguard's Windows Vista Updated ISO 2025-01
 
-**Verdict:** <i class="fa-solid fa-info"></i> Good to use
+**Verdict:**&nbsp; <i class="fa fa-info"></i> Good to use
 
 This ISO is recommended with patchers like the RTX driver patch or the Windows Vista drift patch.
 
-Download: [Bobpony Download Server](https://dl.bobpony.com/windows/unofficial/Windows%20Vista%20SP2%20with%20Update%20%5B6003.20708%5D%20AIO%20%28x86-x64%29%20by%20adguard%20%28v25.01.01%29%20%5BMulti%5D/), [Adguard forum (In Russian and requires an account)](https://forum.rg-adguard.net/threads/windows-vista-sp2-with-update-6003-20708-aio-x86-x64-by-adguard-v25-01-01-preview-jan-2020-multi36.2510/)
+Download: [Bobpony Download Server](https://dl.bobpony.com/windows/unofficial/Windows%20Vista%20SP2%20with%20Update%20%5B6003.20708%5D%20AIO%20%28x86-x64%29%20by%20adguard%20%28v25.01.01%29%20%5BMulti%5D/), [Adguard forum (in Russian and requires an account)](https://forum.rg-adguard.net/threads/windows-vista-sp2-with-update-6003-20708-aio-x86-x64-by-adguard-v25-01-01-preview-jan-2020-multi36.2510/)
 
 Pros:
 

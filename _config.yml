@@ -30,3 +30,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  custom-isos:
+    output: true
+    permalink: /projects/customISOs/:path/
