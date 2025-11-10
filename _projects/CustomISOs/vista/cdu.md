@@ -2,7 +2,7 @@
 title: CDU's 2025-09 Windows Vista Updated ISO
 layout: customisos
 ---
-**Verdict:&nbsp;** <i class="fa fa-bug"></i> Terrible!
+**Verdict:** <i class="fa fa-bug"></i> Terrible!
 
 Well, what do I say... This ISO is terrible. From broken codecs to broken TrustedInstaller, the only use for this ISO is to take stuff from it for your own ISO.
 

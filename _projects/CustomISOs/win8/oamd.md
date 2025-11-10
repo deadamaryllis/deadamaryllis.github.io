@@ -2,7 +2,7 @@
 title: oamd's 2021-12 Windows 8 Updated ISO
 layout: customisos
 ---
-**Verdict:&nbsp;** <i class="fa fa-check-circle"></i> Recommended
+**Verdict:** <i class="fa-solid fa-check"></i> Recommended
 
 The only up-to-date Windows 8.0 ISO that exists out there.
 

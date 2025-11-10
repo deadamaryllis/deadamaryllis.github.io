@@ -2,7 +2,7 @@
 title: ImSwordQueen's 2023-12 Windows 8.1 Updated ISO 
 layout: customisos
 ---
-**Verdict:**&nbsp; <i class="fa fa-check-circle"></i> Recommended
+**Verdict:** <i class="fa-solid fa-check"></i> Recommended
 
 My own 8.1 updated ISO. It works.
 

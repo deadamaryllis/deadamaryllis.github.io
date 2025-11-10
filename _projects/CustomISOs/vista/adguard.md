@@ -5,7 +5,7 @@ layout: customisos
 
 ### Adguard's Windows Vista Updated ISO 2025-04
 
-**Verdict:**&nbsp; <i class="fa fa-info-circle"></i> Good to use
+**Verdict:** <i class="fa-solid fa-info"></i> Good to use
 
 A simple updated ISO with no extras.
 
@@ -29,7 +29,7 @@ A simple updated ISO with no extras.
 
 ### Adguard's Windows Vista Updated ISO 2025-01
 
-**Verdict:**&nbsp; <i class="fa fa-info-circle"></i> Good to use
+**Verdict:** <i class="fa-solid fa-info"></i> Good to use
 
 This ISO is recommended with patchers like the RTX driver patch or the Windows Vista drift patch.
 
