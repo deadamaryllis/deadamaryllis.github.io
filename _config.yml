@@ -1,0 +1,25 @@
+title: "raytek.cafe"
+email: "staff@raytek.cafe"
+description: ""
+baseurl: ""
+url: "https://raytek.cafe"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+page_excerpts: true
+excerpt_separator: <!--more-->
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: "assets/files"
+    values:
+      user-file: true
+
+.exclude:
+ - ".vscode"
