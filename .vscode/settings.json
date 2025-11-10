@@ -5,7 +5,7 @@
         "*.md": "markdown",
         "*.js": "liquid-javascript",
         "*.css": "liquid-css",
-        "*.scss": "liquid-css",
+        "*.scss": "scss",
         "*.html": "liquid"
     },
     "files.exclude": {
