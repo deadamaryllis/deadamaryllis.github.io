@@ -196,7 +196,7 @@ h6,
 p,
 a,
 li,
-.subtitle,
+.tagline,
 table,
 button,
 #play-pause,
@@ -321,7 +321,7 @@ a:hover {
   margin-top: -5px;
 }
 
-.subtitle {
+.tagline {
   user-select: none; /* make text non selectable so its easier to click */
   font-size: 9pt;
   font-style: italic;
@@ -578,7 +578,7 @@ a:hover {
   flex-grow: 1; /* Allow content to grow and fill available space */
 }
 
-.author {
+.subheader {
   font-size: 9pt;
   font-style: italic;
   margin-top: -20px;

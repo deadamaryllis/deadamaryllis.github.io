@@ -76,13 +76,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// ====== Subtitle randomizer and toggler with persistence, loading subtitles from external files ============== //
+// ====== Tagline randomizer and toggler with persistence, loading taglines from external files ============== //
 document.addEventListener("DOMContentLoaded", function () {
-  const subtitle = document.querySelector(".subtitle"); // Get the subtitle element
-  if (!subtitle) return; // Exit if subtitle element does not exist
+  const tagline = document.querySelector(".tagline"); // Get the tagline element
+  if (!tagline) return; // Exit if tagline element does not exist
 
-  // Helper to fetch and parse subtitles from a text file (one per line)
-  function fetchSubtitles(url) {
+  // Helper to fetch and parse taglines from a text file (one per line)
+  function fetchTaglines(url) {
     return fetch(url) // Fetch the file at the given URL
       .then((res) => res.text()) // Get the text content
       .then(
@@ -96,80 +96,80 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Load all three sets, then initialize logic
   Promise.all([
-    fetchSubtitles("/assets/subtitles/subtitles-normal.txt"), // Load normal subtitles
-    fetchSubtitles("/assets/subtitles/subtitles-alt.txt"), // Load alt subtitles
-    fetchSubtitles("/assets/subtitles/subtitles-meme.txt"), // Load meme subtitles
-  ]).then(([normalSubtitles, altSubtitles, memeSubtitles]) => {
+    fetchTaglines("/assets/taglines/taglines-normal.txt"), // Load normal taglines
+    fetchTaglines("/assets/taglines/taglines-alt.txt"), // Load alt taglines
+    fetchTaglines("/assets/taglines/taglines-meme.txt"), // Load meme taglines
+  ]).then(([normalTaglines, altTaglines, memeTaglines]) => {
     // 0 = normal, 1 = alt, 2 = meme
-    let mode = parseInt(localStorage.getItem("subtitleMode")); // Get mode from localStorage
+    let mode = parseInt(localStorage.getItem("taglineMode")); // Get mode from localStorage
     if (![0, 1, 2].includes(mode)) mode = 0; // Default to normal if invalid
-    let subtitles = [normalSubtitles, altSubtitles, memeSubtitles][mode]; // Select current set
-    let lastIdx = parseInt(localStorage.getItem("subtitleLastIdx")); // Get last subtitle index
+    let taglines = [normalTaglines, altTaglines, memeTaglines][mode]; // Select current set
+    let lastIdx = parseInt(localStorage.getItem("taglineLastIdx")); // Get last tagline index
     if (isNaN(lastIdx)) lastIdx = -1; // Default if not set
 
-    // Function to set a random subtitle, avoiding repeats
-    function setRandomSubtitle() {
+    // Function to set a random tagline, avoiding repeats
+    function setRandomTagline() {
       let idx;
       do {
-        idx = Math.floor(Math.random() * subtitles.length); // Pick a random index
-      } while (subtitles.length > 1 && idx === lastIdx); // Avoid repeating the last one
-      subtitle.textContent = subtitles[idx]; // Set the subtitle text
+        idx = Math.floor(Math.random() * taglines.length); // Pick a random index
+      } while (taglines.length > 1 && idx === lastIdx); // Avoid repeating the last one
+      tagline.textContent = taglines[idx]; // Set the tagline text
       lastIdx = idx; // Update last index
-      localStorage.setItem("subtitleLastIdx", idx); // Persist last index
+      localStorage.setItem("taglineLastIdx", idx); // Persist last index
     }
-    setRandomSubtitle(); // Set initial subtitle
+    setRandomTagline(); // Set initial tagline
 
     // --- Long press detection for meme mode ---
     let pressTimer = null;
     let longPressTriggered = false;
 
     // Desktop: mouse long press
-    subtitle.addEventListener("mousedown", function () {
+    tagline.addEventListener("mousedown", function () {
       longPressTriggered = false;
       pressTimer = setTimeout(() => {
         longPressTriggered = true;
         mode = 2;
-        localStorage.setItem("subtitleMode", mode);
-        subtitles = [normalSubtitles, altSubtitles, memeSubtitles][mode];
-        setRandomSubtitle();
+        localStorage.setItem("taglineMode", mode);
+        taglines = [normalTaglines, altTaglines, memeTaglines][mode];
+        setRandomTagline();
       }, 600);
     });
-    subtitle.addEventListener("mouseup", function () {
+    tagline.addEventListener("mouseup", function () {
       clearTimeout(pressTimer);
     });
-    subtitle.addEventListener("mouseleave", function () {
+    tagline.addEventListener("mouseleave", function () {
       clearTimeout(pressTimer);
     });
 
     // Mobile: touch long press
-    subtitle.addEventListener("touchstart", function () {
+    tagline.addEventListener("touchstart", function () {
       longPressTriggered = false;
       pressTimer = setTimeout(() => {
         longPressTriggered = true;
         mode = 2;
-        localStorage.setItem("subtitleMode", mode);
-        subtitles = [normalSubtitles, altSubtitles, memeSubtitles][mode];
-        setRandomSubtitle();
+        localStorage.setItem("taglineMode", mode);
+        taglines = [normalTaglines, altTaglines, memeTaglines][mode];
+        setRandomTagline();
       }, 600);
     });
-    subtitle.addEventListener("touchend", function () {
+    tagline.addEventListener("touchend", function () {
       clearTimeout(pressTimer);
     });
-    subtitle.addEventListener("touchcancel", function () {
+    tagline.addEventListener("touchcancel", function () {
       clearTimeout(pressTimer);
     });
 
-    // Click handler for toggling subtitle sets (normal/alt)
-    subtitle.addEventListener("click", function (e) {
+    // Click handler for toggling tagline sets (normal/alt)
+    tagline.addEventListener("click", function (e) {
       if (longPressTriggered) {
         // If long press was triggered, skip normal click logic
         return;
       }
       // Toggle between normal and alt
       mode = mode === 1 ? 0 : 1;
-      localStorage.setItem("subtitleMode", mode);
-      subtitles = [normalSubtitles, altSubtitles, memeSubtitles][mode];
-      setRandomSubtitle();
+      localStorage.setItem("taglineMode", mode);
+      taglines = [normalTaglines, altTaglines, memeTaglines][mode];
+      setRandomTagline();
     });
   });
 });

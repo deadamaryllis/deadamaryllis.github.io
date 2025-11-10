@@ -2,7 +2,7 @@
 layout: default
 ---
 <h2>{{ page.title | }}</h2>
-<p class="author">
+<p class="subheader">
   {{ page.date | date: '%B %d, %Y' }}
   {% assign authorCount = page.author | size %}
   {% if authorCount > 0 -%}
