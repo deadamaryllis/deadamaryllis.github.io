@@ -9,9 +9,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-page_excerpts: true
-excerpt_separator: <!--more-->
-
 sass:
   style: compressed
 
@@ -23,3 +20,10 @@ defaults:
 
 .exclude:
  - ".vscode"
+
+page_excerpts: true
+excerpt_separator: <!--more-->
+
+collections:
+  authors:
+    output: true
