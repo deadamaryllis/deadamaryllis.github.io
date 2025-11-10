@@ -1,7 +1,10 @@
 ---
-title: Adguard's Windows Vista Updated ISO 2025-04
+title: Adguard's Windows Vista Updated ISOs
 layout: customisos
 ---
+
+### Adguard's Windows Vista Updated ISO 2025-04
+
 - Verdict:&nbsp; **<i class="fa fa-info-circle"></i> Good to use**
 
 Download: [Bobpony Download Server](https://dl.bobpony.com/windows/unofficial/Windows%20Vista%20SP2%20with%20Update%20%5B6003.23217%5D%20AIO%20%28x86-x64%29%20by%20adguard%20%28v25.04.09%29%20%5BMulti%5D/), [Adguard forum (In Russian and requires an account)](https://forum.rg-adguard.net/threads/windows-vista-sp2-with-update-6003-23217-aio-x86-x64-by-adguard-v25-04-09-multi36.2662/)
@@ -22,7 +25,7 @@ Cons:
 - It doesn't come with any extra drivers so you might have to supply your own drivers (e.g ethernet, NVME drivers, etc...).
 - Certain patches (e.g CI patches) won't work due to ESU updates changing those files slightly so it fails to patch them.
 
-# Adguard's Windows Vista Updated ISO 2025-01
+### Adguard's Windows Vista Updated ISO 2025-01
 
 - Verdict: **ℹ️ Good to use**
 
