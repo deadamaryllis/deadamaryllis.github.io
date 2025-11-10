@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.json": "json",
+        "*.yaml": "yaml",
+        "*.md": "markdown",
+        "*.js": "liquid-javascript",
+        "*.css": "liquid-css",
+        "*.scss": "liquid-css",
+        "*.html": "liquid"
+    },
+    "files.exclude": {
+    "_site/":true,
+    ".jekyll-cache/":true
+  }
+}
