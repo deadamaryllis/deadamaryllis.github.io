@@ -1,20 +1,20 @@
 ---
-title: oamd's Windows 8 Updated ISO 2021-12
+title: oamd's 2021-12 Windows 8 Updated ISO
 layout: customisos
 ---
-- Verdict:&nbsp; **<i class="fa fa-check-circle"></i> Recommended**
+**Verdict:&nbsp;** <i class="fa fa-check-circle"></i> Recommended
 
-The only up-to-date ISO for Windows 8.0 that exists out there.
+The only up-to-date Windows 8.0 ISO that exists out there.
 
-Download: [Google Drive](https://drive.google.com/file/d/1Fl9N3Vla56lvLoWyaoYKY8J-NXsiv9T4/view)
+**Download:** [Google Drive](https://drive.google.com/file/d/1Fl9N3Vla56lvLoWyaoYKY8J-NXsiv9T4/view)
 
-Pros:
-- Comes with the 3 main SKUs: Core, Pro, ProWMC
-- It has .NET Framework 4.8 pre-included.
+**Pros:**
+- Comes with the 3 main SKUs: *Core*, *Pro*, *ProWMC*.
+- Has .NET Framework 4.8 pre-installed.
 - .NET 3.5 is pre-enabled.
-- It has "Windows Embedded Foundation" packages built-in.
+- Has Windows Embedded Foundation packages built-in.
 - TLS 1.1/1.2 support.
-- It has Visual C++ 2005-2022 pre-included.
+- Has Visual C++ 2005-2022 pre-installed.
 
-"Cons" (Technically it is a con but not really):
-- 2021-03 and 2021-04 updates are missing. (They are bugged updates so it doesn't matter.)
+**"Cons"** (technically it is a con but not really):
+- 2021-03 and 2021-04 updates are missing (they are bugged updates so it doesn't matter).

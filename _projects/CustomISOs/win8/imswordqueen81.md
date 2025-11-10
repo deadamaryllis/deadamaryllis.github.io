@@ -1,21 +1,21 @@
 ---
-title: ImSwordQueen's Windows 8.1 Updated ISO 2023-12
+title: ImSwordQueen's 2023-12 Windows 8.1 Updated ISO 
 layout: customisos
 ---
-- Verdict:&nbsp; **<i class="fa fa-check-circle"></i> Recommended**
+**Verdict:**&nbsp; <i class="fa fa-check-circle"></i> Recommended
 
 My own 8.1 updated ISO. It works.
 
-Download: [Mega](https://mega.nz/file/FylnwIIA#50mxXuEBwK0rsMElRpkHqDDkoxWb98gqzakZjIt3vA8)
+**Download:** [MEGA](https://mega.nz/file/FylnwIIA#50mxXuEBwK0rsMElRpkHqDDkoxWb98gqzakZjIt3vA8)
 
-Pros:
-- Comes with all the important SKUs: Core, Pro, ProWMC, Enterprise, Industry Pro & Enterprise.
-- Setup does not have the forced product key screen.
-- It has .NET Framework 4.8 pre-included.
+**Pros:**
+- Comes with all the important SKUs: *Core*, *Pro*, *ProWMC*, *Enterprise*, *Industry Pro & Enterprise*.
+- Setup doesn't have the forced product key screen.
+- Has .NET Framework 4.8 pre-installed.
 - .NET 3.5 is pre-enabled.
 - TLS 1.1/1.2 support.
-- It has BypassESU Blue pre-installed.
+- Has BypassESU Blue pre-installed.
 - All SKUs were rebased so it consumes less storage space (at the expense of not being able to uninstall updates)
 
-Cons:
-- It is only updated to 2023-12 level and not higher. (Microsoft does not offer Security Only updates past 2024 and newer updates causes the OS to BSOD at startup.)
+**Cons:**
+- Only updated to 2023-12 level (Microsoft doesn't offer Security Only updates past 2024 and newer updates cause the OS to BSOD at startup).
