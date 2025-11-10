@@ -27,3 +27,6 @@ excerpt_separator: <!--more-->
 collections:
   authors:
     output: true
+  projects:
+    output: true
+    permalink: /projects/:path/
