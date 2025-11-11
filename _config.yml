@@ -32,4 +32,4 @@ collections:
     permalink: /projects/:path/
   custom-isos:
     output: true
-    permalink: /projects/customISOs/:path/
+    permalink: /projects/custom-isos/:path/
